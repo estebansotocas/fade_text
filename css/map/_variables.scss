@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+$dark:#001122;
+
+* { margin: 0; padding: 0; font-family: "roboto", Helvetica, sans-serif;}
+body{ 
+    margin: 0; 
+    padding: 0; 
+    background-color: $dark; 
+    
+} 
+
+/* Text Animation */
+.text-animation{
+    padding: 100px 0 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    color: $dark;
+    
+    font-family: 'East Sea Dokdo', cursive;
+    width: 100%;
+    max-width: 350px;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+ 
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  
