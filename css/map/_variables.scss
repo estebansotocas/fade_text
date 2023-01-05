@@ -5,14 +5,12 @@ $dark:#001122;
 * { margin: 0; padding: 0; font-family: "roboto", Helvetica, sans-serif;}
 body{ 
     margin: 0; 
-    padding: 0; 
-    background-color: $dark; 
+    padding: 0;  
     
 } 
 
 /* Text Animation */
 .text-animation{
-    padding: 100px 0 0;
     font-size: 22px;
     letter-spacing: 2px;
     line-height: 34px;
@@ -21,6 +19,7 @@ body{
     font-family: 'East Sea Dokdo', cursive;
     width: 100%;
     max-width: 350px;
+    margin: 50px auto;
     transform: scale(0.94);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
